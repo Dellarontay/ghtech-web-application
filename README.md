@@ -1,2 +1,4 @@
 # ghtech-web-application
-Temporary application for chat app
+
+*Uses Angular 11, Bootstrap 4, and Iconic 1
+
