@@ -8,6 +8,9 @@ import { LandingComponent } from './landing/landing.component';
 import { LoginComponent } from './login/login.component';
 import { ChatRoomComponent } from './chat-room/chat-room.component';
 import { ContactsComponent } from './contacts/contacts.component';
+import { HeaderComponent } from './header/header.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { GhFooterComponent } from './gh-footer/gh-footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { ContactsComponent } from './contacts/contacts.component';
     LandingComponent,
     LoginComponent,
     ChatRoomComponent,
-    ContactsComponent
+    ContactsComponent,
+    HeaderComponent,
+    NavigationComponent,
+    GhFooterComponent
   ],
   imports: [
     BrowserModule,
