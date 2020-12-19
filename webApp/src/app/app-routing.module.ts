@@ -9,14 +9,15 @@ import {GhFooterComponent} from './gh-footer/gh-footer.component';
 import {ChatRoomComponent} from './chat-room/chat-room.component';
 import {HeaderComponent} from './header/header.component';
 import {ContactsComponent} from './contacts/contacts.component';
-
+import {PagenotfoundComponent} from './pagenotfound/pagenotfound.component'
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch:'full'},
   {path:'home',component:LandingComponent},
   {path:'login',component:LoginComponent},
   {path:'chatroom',component:ChatRoomComponent},
-  {path:'contacts',component:ContactsComponent}
+  {path:'contacts',component:ContactsComponent},
+  {path:'**', component:PagenotfoundComponent}
 ];
 
 @NgModule({

@@ -11,6 +11,7 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { HeaderComponent } from './header/header.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { GhFooterComponent } from './gh-footer/gh-footer.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { GhFooterComponent } from './gh-footer/gh-footer.component';
     ContactsComponent,
     HeaderComponent,
     NavigationComponent,
-    GhFooterComponent
+    GhFooterComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,
