@@ -5,6 +5,5 @@ import { HttpClient, HttpErrorResponse, HttpEvent, HttpHandler, HttpInterceptor,
   providedIn: 'root'
 })
 export class CheckLoginService {
-  constructor(private http:HttpClient) { }
-  private user = false;
+
 }

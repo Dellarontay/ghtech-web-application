@@ -12,12 +12,12 @@ import {ContactsComponent} from './contacts/contacts.component';
 import {PagenotfoundComponent} from './pagenotfound/pagenotfound.component'
 
 const routes: Routes = [
-  {path: '', redirectTo: '/home', pathMatch:'full'},
-  {path:'home',component:LandingComponent},
-  {path:'login',component:LoginComponent},
-  {path:'chatroom',component:ChatRoomComponent},
-  {path:'contacts',component:ContactsComponent},
-  {path:'**', component:PagenotfoundComponent}
+  { path: '', redirectTo: '/home', pathMatch:'full'},
+  { path:'home',component:LandingComponent},
+  { path:'login',component:LoginComponent},
+  { path:'chatroom',component:ChatRoomComponent},
+  { path:'contacts',component:ContactsComponent},
+  { path:'**', component:PagenotfoundComponent}
 ];
 
 @NgModule({
